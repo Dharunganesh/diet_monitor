@@ -111,6 +111,7 @@ def login(user: User, db: Session = Depends(get_db)):
     )
 
     return {
+        "message":"login successfull",
         "access_token": access_token,
         "token_type": "bearer"
     }
