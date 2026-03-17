@@ -1,4 +1,4 @@
-import "./login.css";
+import "./register.css";
 import {useState} from "react";
 function Register(){
     const [email,setEmail]=useState("");

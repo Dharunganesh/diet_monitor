@@ -4,7 +4,6 @@ function Header(){
         <header>
             <h1>NUTRITACK</h1>
             <h3>Welcome!</h3>
-            <br></br>
         </header>
     );
 }

@@ -9,8 +9,8 @@ function App(){
     <div className="app">
     <Header/>
     <nav>
-      <button onClick={() => setPage("login")}>Login</button>
-      <button onClick={()=>setPage("register")}>Register</button>
+      <button onClick={() => setPage("login")}>LOGIN</button>
+      <button onClick={()=>setPage("register")}>REGISTER</button>
     </nav>
     {
       page === "login"
