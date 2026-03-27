@@ -1,6 +1,18 @@
-nav{
-    text-align:center;
+nav {
+    width: fit-content;
+
+    display: flex;
+    gap: 10px;              /* space between buttons */
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px auto;      /* center nav horizontally */
+    padding: 10px;
 }
 body{
     background-color: lightgreen;
+}
+button {
+    padding: 8px 16px;
+    cursor: pointer;
 }

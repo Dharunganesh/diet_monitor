@@ -6,16 +6,19 @@ function Login(){
     const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
     async function Handle_Login(event){
         event.preventDefault();
+        const formData = new URLSearchParams();
+        formData.append("grant_type", "password");
+        formData.append("username", email);
+        formData.append("password", password);
+
         const response=await fetch(`${BACKEND_URL}/login`,{
             method:"POST",
-            headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({
-                username:email,
-                password:password
-            })
+            headers:{"Content-Type":"application/x-www-form-urlencoded"},
+            body: formData.toString()
         });
         const data=await response.json();
-        window.alert(data.message);
+        localStorage.setItem("token",data.access_token)
+        window.location.reload();
     }
     return(
         <div className="login">

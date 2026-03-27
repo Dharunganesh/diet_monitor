@@ -10,8 +10,8 @@ body {
     height: 100vh;
 }
 
-/* Login card */
-.login {
+/* Register card */
+.register {
     background: white;
     padding: 30px;
     border-radius: 12px;
@@ -20,20 +20,20 @@ body {
 }
 
 /* Title */
-.login h2 {
+.register h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 /* Labels */
-.login label {
+.register label {
     font-size: 14px;
     display: block;
     margin-bottom: 5px;
 }
 
 /* Inputs */
-.login input {
+.register input {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -46,12 +46,12 @@ body {
 }
 
 /* Input focus effect */
-.login input:focus {
+.register input:focus {
     border-color: #007bff;
 }
 
 /* Button */
-.login button {
+.register button {
     width: 100%;
     padding: 10px;
 
@@ -66,6 +66,6 @@ body {
 }
 
 /* Button hover */
-.login button:hover {
+.register button:hover {
     background: #0056b3;
 }
