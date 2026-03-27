@@ -1,8 +1,9 @@
 function Dashboard(){
     const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
-    const handleSubmit = () => {
-        setMessage("Your response has been submitted");
-    };
+    let handle_submit= async function(){
+        let text_content=document.getElementById("text_content");
+        text_content.textContent="Your response have been submitted";
+    }
     return(
         <div>
             <h1>Welcome to Dashboard</h1>
@@ -10,8 +11,8 @@ function Dashboard(){
             <label>Enter your food record:</label>
             <input type="file" id="photo"></input>
             <br></br>
-            <button onClick={handleSubmit}>Submit</button>
-            <h2>{message}</h2>
+            <button type="submit" id="submit_button" onClick={handle_submit}>Submit</button>
+            <h2 id="text_content"></h2>
         </div>
     )
 }
