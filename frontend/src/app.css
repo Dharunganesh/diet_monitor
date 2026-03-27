@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 nav {
     width: fit-content;
 
@@ -16,23 +15,4 @@ body{
 button {
     padding: 8px 16px;
     cursor: pointer;
-=======
-nav {
-    width: fit-content;
-
-    display: flex;
-    gap: 10px;              /* space between buttons */
-    justify-content: center;
-    align-items: center;
-
-    margin: 20px auto;      /* center nav horizontally */
-    padding: 10px;
-}
-body{
-    background-color: lightgreen;
-}
-button {
-    padding: 8px 16px;
-    cursor: pointer;
->>>>>>> 73e5f930fae87c9972e867cd4ae8ec617c00345f
 }

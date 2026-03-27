@@ -10,13 +10,6 @@ function App(){
   return(
     <div className="app">
     <Header/>
-<<<<<<< HEAD
-=======
-    <nav>
-      <button onClick={() => setPage("login")}>LOGIN</button>
-      <button onClick={()=>setPage("register")}>REGISTER</button>
-    </nav>
->>>>>>> 73e5f930fae87c9972e867cd4ae8ec617c00345f
     {
         token && token != "undefined"? (
           <Dashboard />
