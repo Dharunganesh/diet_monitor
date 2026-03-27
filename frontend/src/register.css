@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Full page center */
 body {
     margin: 0;
@@ -68,4 +69,76 @@ body {
 /* Button hover */
 .register button:hover {
     background: #0056b3;
+=======
+/* Full page center */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Register card */
+.register {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Title */
+.register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.register label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+
+    transition: border 0.2s;
+}
+
+/* Input focus effect */
+.register input:focus {
+    border-color: #007bff;
+}
+
+/* Button */
+.register button {
+    width: 100%;
+    padding: 10px;
+
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+/* Button hover */
+.register button:hover {
+    background: #0056b3;
+>>>>>>> 73e5f930fae87c9972e867cd4ae8ec617c00345f
 }
